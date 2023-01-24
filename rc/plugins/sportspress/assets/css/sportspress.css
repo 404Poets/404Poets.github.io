@@ -1,0 +1,678 @@
+/* SportsPress */
+
+.sp-align-left {
+	text-align: left;
+}
+
+.sp-align-right {
+	text-align: right;
+}
+
+.sp-align-center {
+	text-align: center;
+}
+
+/* Header */
+.sp-header {
+	position: relative;
+	overflow: visible;
+	z-index: 10000;
+}
+
+/* Templates */
+.sp-template {
+	margin-bottom: 1.5em;
+}
+.sp-template-profile-selector {
+	clear: both;
+	overflow: hidden;
+}
+.sp-template-logo,
+.sp-template-photo {
+	float: left;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	max-width: 50%;
+}
+.sp-template-event-logos {
+	text-align: center;
+}
+.sp-template-details {
+	display: inline;
+}
+.sp-template-details dl {
+	overflow: hidden;
+}
+
+/* Tabs */
+.sp-tab-menu {
+	display: block;
+	clear: both;
+	padding: 0 5px;
+	margin: 0 0 1.5em;
+	list-style: none;
+}
+.sp-tab-menu-item {
+	display: inline-block;
+	margin: 0;
+}
+.sp-tab-menu-item a {
+	display: block;
+	margin: 0 10px;
+	color: inherit;
+	opacity: 0.5;
+    transition: all .3s;
+}
+.sp-tab-menu-item a:focus {
+    outline: none;
+}
+.sp-tab-menu-item-active a,
+.sp-tab-menu-item a:hover {
+	color: inherit;
+	opacity: 1;
+}
+.sp-tab-content {
+	display: none;
+}
+
+/* Profile selector */
+.sp-template-profile-selector {
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+
+/* Data Tables */
+.sp-scrollable-table-wrapper {
+	width: 100%;
+	overflow: hidden;
+	overflow-x: auto;
+}
+.sp-data-table {
+	width: 100%;
+	table-layout: auto;
+    border-spacing: 0;
+}
+.sp-paginated-table {
+	margin-bottom: 0;
+}
+.sp-data-table thead th {
+	white-space: nowrap;
+}
+.sp-data-table thead .sorting,
+.sp-data-table thead .sorting_asc,
+.sp-data-table thead .sorting_desc,
+.sp-data-table thead .sorting_asc_disabled,
+.sp-data-table thead .sorting_desc_disabled {
+	cursor: pointer;
+}
+.sp-data-table tbody a {
+	text-decoration: none;
+}
+.sp-data-table .sorting:after,
+.sp-data-table .sorting_asc:after,
+.sp-data-table .sorting_desc:after {
+	font-family: dashicons;
+}
+.sp-data-table .sorting:after {
+	content: "\f156";
+	color: transparent;
+	position: absolute;
+}
+.sp-data-table .sorting_asc:after {
+	content: "\f142";
+	position: absolute;
+}
+.sp-data-table .sorting_desc:after {
+	content: "\f140";
+	position: absolute;
+}
+.sp-data-table .data-name {
+	text-align: left;
+}
+.sp-data-table .data-number,
+.sp-data-table .data-rank {
+	width: 1px;
+}
+.sp-data-table .sp-checkbox {
+	font-family: sportspress;
+	vertical-align: bottom;
+}
+
+/* Post Content */
+.sp-post-content {
+	clear: both;
+}
+
+/* Pagination */
+.sp-table-wrapper .dataTables_paginate {
+	text-align: center;
+}
+.sp-table-wrapper .dataTables_paginate .paginate_button {
+	margin: 0.5em;
+	cursor: pointer;
+	display: inline-block;
+}
+.sp-table-wrapper .dataTables_paginate .previous {
+	float: left;
+	margin-left: 0;
+}
+.sp-table-wrapper .dataTables_paginate .next {
+	float: right;
+	margin-right: 0;
+}
+.sp-table-wrapper .dataTables_paginate .current {
+	opacity: 0.5;
+	color: inherit;
+	cursor: default;
+}
+.sp-table-wrapper .dataTables_paginate .disabled {
+	opacity: 0;
+	cursor: default;
+}
+
+/* Post Excerpt */
+.sp-excerpt {
+	display: block;
+	margin-bottom: 1em;
+}
+
+/* League Table */
+.sp-league-table td.has-logo {
+	line-height: 2em;
+}
+.sp-league-table .team-logo {
+	width: 2em;
+	height: 2em;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.sp-league-table .data-name .team-logo {
+	margin-right: 0.5em;
+}
+.sp-league-table .team-logo img {
+	width: auto;
+	height: auto;
+	max-width: 2em;
+	max-height: 2em;
+}
+
+/* Team Gallery */
+.sp-template-team-gallery img {
+  padding: 1em;
+}
+
+/* Player List */
+.sp-player-list td {
+	line-height: 2em;
+}
+.sp-player-list .data-name .player-photo,
+.sp-player-list .data-name .player-flag,
+.sp-player-list .data-team .team-logo {
+	width: 2em;
+	height: 2em;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.sp-player-list .data-name .player-photo,
+.sp-player-list .data-name .player-flag {
+	margin-right: 0.5em;
+}
+.sp-player-list .data-name .player-photo img,
+.sp-player-list .data-name .player-flag img,
+.sp-player-list .data-team .team-logo img {
+	width: auto;
+	height: auto;
+	max-width: 2em;
+	max-height: 2em;
+}
+
+/* Staff */
+.sp-staff-role-delimiter {
+	margin: 0 0.125em;
+}
+
+/* Button */
+.sp-button {
+	border: none;
+	cursor: pointer;
+}
+
+/* Messages */
+.sp-message {
+	padding: 1em;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+/* Event Logos */
+.sp-event-logos a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.sp-event-logos img {
+	display: inline !important;
+	vertical-align: middle;
+}
+
+/* Events */
+.sp-event-overview,
+.sp-event-performance-tables {
+	overflow: hidden;
+	clear: both;
+}
+
+/* Event Logos */
+.sp-event-logos .sp-team-logo {
+	white-space: nowrap;
+	display: block;
+}
+
+.sp-event-logos .sp-team-logo .sp-team-result {
+	display: block;
+	margin: 0.5em 0;
+}
+
+/* Event Venue */
+.sp-event-venue thead th {
+	white-space: normal;
+}
+
+/* Event Performance */
+.sp-template-event-performance-icons thead {
+	display: none;
+}
+.sp-event-performance .sub {
+	background: rgba(0,0,0,0.05);
+}
+.sp-event-performance .sub-in,
+.sp-event-performance .sub-out {
+	cursor: default;
+}
+.sp-event-performance .sub-in:before,
+.sp-event-performance .sub-out:before {
+	font-family: dashicons;
+}
+.sp-event-performance .sub-in:before {
+	content: "\f140";
+}
+.sp-event-performance .sub-out:before {
+	content: "\f142";
+}
+.sp-event-performance .sp-performance-icons {
+	width: 25%;
+}
+.sp-event-performance .sp-event-star {
+	color: #f4d014;
+}
+.sp-event-performance .sp-event-star-number {
+    margin-left: -20px;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: smaller;
+    line-height: 20px;
+}
+
+/* Event Performance (Icons) */
+.sp-event-performance-teams .sp-template-event-performance-icons {
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+	clear: left;
+	padding-right: 10px;
+}
+
+.sp-event-performance-teams .sp-template-event-performance-icons:nth-child(2n) {
+	float: right;
+	clear: right;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.sp-template-event-performance-icons .sp-player-position {
+    display: block;
+}
+
+/* Event Calendar */
+.sp-event-calendar {
+    border-spacing: 0;
+}
+.sp-event-calendar a {
+	text-decoration: none;
+}
+.sp-event-calendar tbody td,
+.sp-event-calendar thead th {
+	text-align: center;
+}
+.sp-event-calendar #next {
+	text-align: right;
+}
+.sp-event-calendar #prev {
+	text-align: left;
+}
+
+/* Event List */
+.sp-event-list .data-date date,
+.sp-event-list .data-time date {
+	display: none !important;
+}
+.sp-event-list .data-article {
+	white-space: nowrap;
+}
+.sp-event-list .data-article a .dashicons {
+	padding-right: 3px;
+}
+.sp-event-list .data-time,
+.sp-event-list .data-results {
+	white-space: nowrap;
+}
+.sp-event-list .data-home {
+	text-align: right;
+}
+.sp-event-list .data-away {
+	text-align: left;
+}
+.sp-event-list td.has-logo {
+	line-height: 2em;
+}
+.sp-event-list .team-logo {
+	width: 2em;
+	height: 2em;
+	margin-right: 0.5em;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.sp-event-list .team-logo img {
+	width: auto;
+	height: auto;
+	max-width: 2em;
+	max-height: 2em;
+}
+.sp-event-list .data-home img,
+.sp-event-list .data-away img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.sp-event-list .data-home img {
+	margin-left: 8px;
+}
+.sp-event-list .data-away img {
+	margin-right: 8px;
+}
+.sp-event-list-format-homeaway .data-time {
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/* Event Blocks */
+.sp-event-blocks thead {
+	display: none;
+}
+.sp-event-blocks .sp-event-date,
+.sp-event-blocks .sp-event-time,
+.sp-event-blocks .sp-event-results,
+.sp-event-blocks .sp-event-title {
+	text-align: center;
+	display: block;
+	margin: 10px 0;
+	clear: none;
+}
+.sp-event-blocks .sp-event-league,
+.sp-event-blocks .sp-event-season,
+.sp-event-blocks .sp-event-venue {
+	text-align: center;
+	margin: 0 20%;
+	padding: 0 20px;
+}
+.sp-event-blocks .team-logo {
+	margin: 10px;
+	width: 20%;
+	height: 4em;
+	max-width: 6em;
+	text-align: center;
+}
+.sp-event-blocks .logo-odd {
+	float: left;
+}
+.sp-event-blocks .logo-even {
+	float: right;
+}
+.sp-event-blocks .team-logo img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+.sp-fixtures-results {
+	clear: both;
+}
+.widget .sp-event-blocks .sp-event-title {
+	margin: 10px;
+	padding: 0;
+	clear: both;
+}
+
+span.sp_event_spec_label {
+	font-weight: bold;
+}
+
+/* Event Logos Block */
+.sp-template-event-logos-block .team-logo {
+	float: none;
+	max-width: none;
+	width: 100%;
+	height: auto;
+	color: inherit;
+}
+
+.sp-template-event-logos-block .team-logo img {
+	vertical-align: middle;
+}
+
+.sp-template-event-logos-block .sp-team-name {
+	display: block;
+	clear: both;
+	vertical-align: middle;
+	font-size: 28px;
+}
+
+.sp-template-event-logos-block .sp-event-results {
+	font-size: 36px;
+}
+
+/* Event Form */
+.sp-form-events {
+	text-align: center;
+}
+
+.sp-form-events .sp-form-event-link {
+	display: inline-block;
+	text-align: center;
+	vertical-align: text-top;
+	line-height: 1.5em;
+	width: 1.5em;
+	margin: 0 0 0.25em;
+	color: #fff !important;
+	font-weight: normal;
+}
+
+.sp-form-events .sp-form-event-link:hover {
+	color: #fff !important;
+}
+
+/* Countdowns */
+.sp-template-countdown .event-image img {
+	display: block;
+	margin: 0 auto;
+}
+.sp-template-countdown .event-name {
+	clear: both;
+	overflow: hidden;
+}
+.sp-template-countdown .team-logo {
+	width: 20%;
+	height: auto;
+	max-width: 4em;
+}
+.sp-template-countdown .logo-odd {
+	float: left;
+	margin-right: 10px;
+}
+.sp-template-countdown .logo-even {
+	float: right;
+	margin-left: 10px;
+}
+.sp-template-countdown .team-logo img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+.sp-template-countdown .sp-countdown {
+	clear: both;
+}
+
+/* Google Maps */
+.sp-google-map-container {
+	position: relative;
+}
+.sp-google-map {
+	width: 100%;
+	height: 320px;
+}
+.sp-google-map-link {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url(../images/maps/pin.png) no-repeat center center;
+	background-size: 26px 82px;
+}
+.sp-google-map img {
+	max-width: none !important;
+}
+.sp-venue-map {
+	margin-bottom: 4em;
+}
+
+/* View All */
+.sp-view-all-link {
+	display: block;
+	margin-top: 0.5em;
+}
+
+/* Highlight & Heading */
+.sp-highlight,
+.sp-heading {
+	font-weight: bold;
+}
+
+/* Hidden Responsive Element */
+.sp-desktop {
+	display: none;
+}
+
+/* Admin Bar */
+#wpadminbar #wp-admin-bar-sportspress>.ab-item:before {
+	font-family: sportspress, dashicons;
+}
+
+#wpadminbar #wp-admin-bar-sportspress>.ab-item:before {
+	content: "\f111";
+	top: 2px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 801px) {
+	/* Widget Alignment */
+	.sp-widget-align-none {
+		clear: both;
+	}
+	.sp-widget-align-left {
+		width: 50%;
+		float: left;
+		clear: left;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	.sp-widget-align-right {
+		width: 50%;
+		float: right;
+		clear: right;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+
+	/* Hidden Responsive Element */
+	.sp-desktop {
+		display: block;
+	}
+	.sp-mobile {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.sp-event-logos .sp-team-logo {
+		display: inline-block;
+	}
+
+	.sp-event-logos-2 .sp-team-logo {
+		display: inline;
+	}
+
+	.sp-event-logos-2 .sp-team-logo .sp-team-result {
+		display: inline-block;
+		margin: 0 0.25em;
+	}
+	
+	.sp-template-logo + .sp-post-content {
+		clear: left;
+	}
+	
+	.sp-template-photo + .sp-post-content {
+		clear: none;
+	}
+
+	.sp-template-event-logos-block .team-logo {
+		width: 33%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.sp-template-event-logos-block .team-logo img {
+		height: 100px;
+	}
+
+	.sp-template-event-logos-block .logo-odd {
+		text-align: left;
+		float: left;
+	}
+
+	.sp-template-event-logos-block .logo-even {
+		text-align: right;
+		float: right;
+	}
+	
+	.sp-template-event-logos-block .logo-odd img {
+		margin-right: 10px;
+	}
+	
+	.sp-template-event-logos-block .logo-even img {
+		margin-left: 10px;
+	}
+	
+	.sp-template-event-logos-block .sp-team-name {
+		display: inline;
+		clear: none;
+	}
+}
