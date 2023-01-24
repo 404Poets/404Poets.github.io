@@ -117,14 +117,14 @@ Primary use:	Showcase Portfolio
 	}
 	
 	abbr[title] {
-		border-bottom: 1px dotted #2b2b2b;
+		border-bottom: 1px dotted #4213ed;
 		cursor: help;
 	}
 	
 	b,
 	strong {
 		font-weight: 600;
-		color:#222;
+		color:rgb(241, 167, 227);
 	}
 	
 	.light-content b, .light-content strong, .dark-section b, .dark-section strong {
